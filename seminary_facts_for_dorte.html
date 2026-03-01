@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light only">
+<title>Seminary at Strawberry: Facts & Sources</title>
+<style>
+  html, body {
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+background: #FFFFFF;
+color: #1a1a1a;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+line-height: 1.6;
+font-size: 15px;
+}
+
+.container {
+max-width: 780px;
+margin: 0 auto;
+padding: 48px 24px 64px;
+}
+
+.header {
+text-align: center;
+margin-bottom: 40px;
+padding-bottom: 24px;
+border-bottom: 2px solid #1a1a1a;
+}
+
+.header h1 {
+font-size: 32px;
+font-weight: 700;
+color: #1a1a1a;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-bottom: 4px;
+}
+
+.header .subtitle { font-size: 15px; color: #555; margin-bottom: 4px; }
+.header .date { font-size: 13px; color: #888; }
+
+.section { margin-bottom: 40px; }
+
+.section-header {
+display: flex;
+align-items: center;
+gap: 12px;
+margin-bottom: 20px;
+}
+
+.section-num {
+background: #1a1a1a;
+color: #fff;
+font-weight: 700;
+font-size: 14px;
+width: 28px;
+height: 28px;
+border-radius: 6px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+}
+
+.section-title {
+font-size: 20px;
+font-weight: 700;
+color: #1a1a1a;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+
+.claim-box {
+background: #FFF5F0;
+border-left: 4px solid #D4380D;
+padding: 16px 20px;
+margin-bottom: 20px;
+}
+
+.claim-label {
+font-size: 11px;
+font-weight: 700;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #D4380D;
+margin-bottom: 4px;
+}
+
+.claim-text { font-size: 15px; font-style: italic; color: #555; line-height: 1.5; }
+
+.fact-card {
+background: #F6FBF6;
+border: 1px solid #e0e0e0;
+padding: 22px 24px;
+margin-bottom: 14px;
+}
+
+.fact-headline {
+font-size: 19px;
+font-weight: 700;
+color: #1B7A2B;
+line-height: 1.35;
+margin-bottom: 10px;
+}
+
+.fact-body {
+font-size: 14.5px;
+color: #333;
+line-height: 1.65;
+margin-bottom: 12px;
+}
+
+.fact-body strong { color: #1a1a1a; }
+
+.math-block {
+background: #fff;
+border: 1px solid #d4d4d4;
+padding: 14px 18px;
+margin: 12px 0;
+font-size: 14.5px;
+line-height: 2;
+color: #333;
+}
+
+.math-block strong { color: #1a1a1a; }
+
+.sources {
+border-top: 1px solid #ddd;
+padding-top: 10px;
+margin-top: 8px;
+}
+
+.sources-label {
+font-size: 10px;
+font-weight: 700;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #888;
+margin-bottom: 4px;
+}
+
+.sources a {
+display: block;
+font-size: 12.5px;
+color: #666;
+text-decoration: none;
+line-height: 1.5;
+padding: 2px 0;
+}
+
+.sources a:hover { color: #1B7A2B; text-decoration: underline; }
+
+.bottom-line {
+margin-top: 48px;
+text-align: center;
+padding-top: 32px;
+border-top: 2px solid #1a1a1a;
+margin-bottom: 40px;
+}
+
+.bottom-line h2 {
+font-size: 24px;
+font-weight: 700;
+color: #1a1a1a;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 6px;
+}
+
+.bl-rule {
+width: 60px;
+height: 2px;
+background: #1a1a1a;
+margin: 0 auto 28px;
+}
+
+.stats-table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 28px;
+text-align: left;
+}
+
+.stats-table tr { border-top: 1px solid #ddd; }
+.stats-table tr:last-child { border-bottom: 1px solid #ddd; }
+.stats-table td { padding: 12px 8px; vertical-align: middle; }
+
+.stats-table .stat-num {
+font-size: 28px;
+font-weight: 700;
+color: #1a1a1a;
+width: 120px;
+text-align: right;
+padding-right: 20px;
+}
+
+.stats-table .stat-desc { font-size: 14px; color: #444; line-height: 1.5; }
+
+.kicker {
+font-size: 15px;
+font-weight: 700;
+font-style: italic;
+color: #1a1a1a;
+max-width: 650px;
+margin: 0 auto 16px;
+line-height: 1.55;
+}
+
+.kicker-sub {
+font-size: 14px;
+color: #555;
+max-width: 640px;
+margin: 0 auto;
+line-height: 1.55;
+}
+
+.source-index {
+margin-top: 48px;
+padding-top: 24px;
+border-top: 2px solid #1a1a1a;
+}
+
+.source-index h2 {
+font-size: 20px;
+font-weight: 700;
+color: #1a1a1a;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+margin-bottom: 4px;
+}
+
+.source-index .subtitle { font-size: 13px; color: #888; margin-bottom: 20px; }
+
+.source-group { margin-bottom: 16px; }
+
+.source-group-title {
+font-size: 11px;
+font-weight: 700;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #888;
+margin-bottom: 6px;
+}
+
+.source-group ol { list-style: none; counter-reset: src; }
+
+.source-group li {
+counter-increment: src;
+font-size: 13px;
+color: #555;
+padding: 3px 0;
+line-height: 1.45;
+}
+
+.source-group li::before { content: counter(src) “. “; color: #888; font-weight: 500; }
+.source-group li a { color: #333; text-decoration: none; }
+.source-group li a:hover { color: #1B7A2B; text-decoration: underline; }
+
+.footer {
+text-align: center;
+margin-top: 40px;
+padding-top: 16px;
+border-top: 1px solid #ddd;
+font-size: 11px;
+color: #aaa;
+}
+
+@media (max-width: 600px) {
+.container { padding: 28px 16px 40px; }
+.fact-card { padding: 16px; }
+.header h1 { font-size: 24px; }
+.stats-table .stat-num { font-size: 22px; width: 90px; }
+}
+</style>
+
+</head>
+<body style="background:#FFFFFF !important; background-color:#FFFFFF !important;">
+<div class="container" style="background:#FFFFFF !important;">
+
+  <div class="header">
+    <h1>Seminary at Strawberry</h1>
+    <p class="subtitle">Facts &amp; Sources — A point-by-point rebuttal with direct citations to every source</p>
+    <p class="date">Prepared March 1, 2026</p>
+  </div>
+
+  <!-- SECTION 1 -->
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <div class="section-title">The "Approved Plan"</div>
+    </div>
+
+```
+<div class="claim-box">
+  <div class="claim-label">Claim #1</div>
+  <div class="claim-text">"Maybe next time you move to an area, don't move next to a site that has an approved plan you don't agree with."</div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">There is no approved plan. The 1984 Master Plan expired in 2017.</div>
+  <div class="fact-body">The Marin County Board of Supervisors voted <strong>unanimously</strong> not to extend the 1984 Master Plan. It lapsed at the end of 2017. North Coast's current proposal is a brand-new application that requires a <strong>new Master Plan AND amendments to the Strawberry Community Plan</strong>. Nobody moved next to an "approved project" — there is a pending application under environmental review.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://patch.com/california/millvalley/board-upholds-denial-strawberry-seminary-proposal" target="_blank">Mill Valley Patch, Dec. 13, 2017 — "Board Upholds Denial Of Strawberry Seminary Proposal"</a>
+    <a href="https://www.marincounty.gov/departments/cda/planning/projects/mill-valley-alto/north-coast-land-holdings-community-plan-amendmentmaster-plandesign-reviewmaster-use-permittentative-maptree-removal-permit-former-golden-gate-baptist-seminary-property-p1490" target="_blank">Marin County CDA — P1490 Official Project Page</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">The 1984 Plan restricted housing to students, faculty &amp; staff only.</div>
+  <div class="fact-body">The Strawberry Community Plan and the 1984 Master Plan both describe the on-site housing as exclusively for <strong>"students, faculty and staff"</strong> of the seminary. North Coast's application explicitly requests a Community Plan Amendment to remove that restriction — which itself proves that general market-rate housing was <strong>never part of any approved plan</strong>.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marincounty.gov/departments/cda/planning/projects/mill-valley-alto/north-coast-land-holdings-community-plan-amendmentmaster-plandesign-reviewmaster-use-permittentative-maptree-removal-permit-former-golden-gate-baptist-seminary-property-p1490" target="_blank">Marin County CDA — P1490: amendment needed so units "would no longer be exclusively dedicated to students, faculty and staff"</a>
+    <a href="http://strawberry94941.org/?p=379" target="_blank">Strawberry Community Association — confirms Community Plan language</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">Riley Hurd's argument: the 1953 CUP was voided by the 1984 Plan.</div>
+  <div class="fact-body">The 1984 Master Plan stated: <strong>"With approval of this Master Plan, the previously approved 1959 Campus Plan Use Permit shall become null and void."</strong> Don Dickenson, who was the county's projects planner when the 1984 plan was written, publicly agrees with this interpretation.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marinij.com/2024/07/20/marin-planners-release-strawberry-development-study/" target="_blank">Marin IJ, July 20, 2024 — quotes the 1984 Master Plan language and Dickenson's agreement</a>
+    <a href="https://www.marinij.com/2024/09/15/strawberry-housing-development-eir-faulted-by-project-critics/" target="_blank">Marin IJ, Sept. 15, 2024 — Dickenson: "At that time, the assumption was that the master plan was replacing the conditional use permit"</a>
+  </div>
+</div>
+```
+
+  </div>
+
+  <!-- SECTION 2 -->
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <div class="section-title">"These Aren't New Units"</div>
+    </div>
+
+```
+<div class="claim-box">
+  <div class="claim-label">Claim #2</div>
+  <div class="claim-text">"These aren't new units, they are replacing existing units that have people living in them right now."</div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">197 units are net-new — no predecessor on the site. Plus 150 senior apartments.</div>
+  <div class="fact-body">The Planning Commission Staff Report states: <strong>"A total of 336 residential units are proposed, of which 139 units would replace existing units."</strong> Here is the math:</div>
+  <div class="math-block">
+    &nbsp;&nbsp;&nbsp; 336 proposed residential units<br>
+    – 139 replacing existing units<br>
+    = <strong>197 net-new residential units</strong><br>
+    + 150 senior care apartments (entirely new facility)<br>
+    = <strong>347 net-new units</strong> on a site with 211 seminary dorm rooms
+  </div>
+  <div class="fact-body">That is not "replacing existing units." That is more than doubling the unit count — with a fundamentally different use.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://marin.granicus.com/MetaViewer.php?view_id=3&clip_id=12330&meta_id=1340971" target="_blank">Marin County Planning Commission Staff Report — "of which 139 units would replace existing units"</a>
+    <a href="https://www.marincounty.gov/news-releases/development-former-seminary-site-strawberry-final-stages-environmental-review" target="_blank">Marin County Official Press Release, Dec. 16, 2025 — project description</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">The current tenant (Olivet University) has ~120 students and 15 faculty.</div>
+  <div class="fact-body">The seminary relocated in 2014–2016. Since then, Olivet University has operated on a lease with approximately 120 students and 15 faculty members. The campus was built for up to 1,000 students; it is operating at roughly <strong>12% of that capacity</strong>. The site is not a thriving residential community — it is a substantially underutilized former seminary campus.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marinij.com/2020/02/18/new-proposal-debuted-to-develop-seminary-property-in-strawberry/amp/" target="_blank">Marin IJ, Feb. 18, 2020 — "North Coast currently leases it to Olivet University, which has approximately 120 students and 15 faculty members"</a>
+    <a href="https://www.marincounty.gov/news-releases/strawberry-property-moves-environmental-review" target="_blank">Marin County — "Golden Gate Baptist Seminary had an enrollment of about 600 students in 2015 when its leadership decided to close it permanently"</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">The existing housing was always restricted to students, faculty &amp; staff — not the general public.</div>
+  <div class="fact-body">The Strawberry Community Plan and the 1984 Master Plan both describe on-site housing as exclusively for <strong>"students, faculty and staff."</strong> North Coast must amend the Community Plan to remove this restriction — which itself proves market-rate housing was never part of any approved plan. Equating a seminary dorm room with a market-rate home is, as SNA attorney Riley Hurd put it, comparing fundamentally different uses on "the impact scale."</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marincounty.gov/departments/cda/planning/projects/mill-valley-alto/north-coast-land-holdings-community-plan-amendmentmaster-plandesign-reviewmaster-use-permittentative-maptree-removal-permit-former-golden-gate-baptist-seminary-property-p1490" target="_blank">Marin County CDA — P1490: amendment needed so units "would no longer be exclusively dedicated to students, faculty and staff"</a>
+    <a href="http://strawberry94941.org/?p=379" target="_blank">Strawberry Community Association — confirms Community Plan language</a>
+  </div>
+</div>
+```
+
+  </div>
+
+  <!-- SECTION 3 -->
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <div class="section-title">"100s of Families for Decades"</div>
+    </div>
+
+```
+<div class="claim-box">
+  <div class="claim-label">Claim #3</div>
+  <div class="claim-text">"The Seminary has had 100s of families living there for decades."</div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">Maximum physical housing capacity ever built: 211 units.</div>
+  <div class="fact-body">The original plan called for housing for ~400 people, but the developer's own website states <strong>"a large portion of which was never built."</strong> The 211 units that were built were seminary dorms and small family apartments — not typical residential homes.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.theseminaryatstrawberry.com/historical-uses/" target="_blank">TheSeminaryAtStrawberry.com — Historical Uses (developer's own site)</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">Enrollment declined since the 1970s. Most students commuted — they didn't live on campus.</div>
+  <div class="fact-body">Peak enrollment was 750–910 students (sources vary by decade), but the developer's own website states: <strong>"Most of the campus population lived in the surrounding community and commuted to the site."</strong> Enrollment was declining for 40+ years before the seminary left.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.theseminaryatstrawberry.com/historical-uses/" target="_blank">TheSeminaryAtStrawberry.com — Historical Uses (developer's own site)</a>
+    <a href="https://www.mvhistory.org/vignette-seminary/" target="_blank">Mill Valley Historical Society — "Enrollment... had been declining since the 1970's"</a>
+    <a href="https://marinmagazine.com/arts-events/things-to-do/the-first-baptist-theological-school-in-the-western-us/" target="_blank">Marin Magazine, 2019 — "Enrollment peaked in the 1970s at 750 students"</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">The seminary left in 2014–2016. Olivet had only ~120 students.</div>
+  <div class="fact-body">The Golden Gate Baptist Seminary trustees voted to relocate in April 2014. The Mill Valley campus officially closed June 3, 2016. When Olivet University took over the lease, it had approximately 100–120 students and 15 faculty members. The Southern Baptist Convention itself said housing near Mill Valley was <strong>"extremely difficult, undermining any meaningful growth strategy."</strong></div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.gs.edu/news-events/articles/golden-gate-seminary-closes-mill-valley-campus/" target="_blank">Gateway Seminary — "Golden Gate Seminary closes Mill Valley campus" (June 3, 2016)</a>
+    <a href="https://www.gs.edu/about/seminary-history/" target="_blank">Gateway Seminary — Official Seminary History page</a>
+    <a href="https://www.marinij.com/2020/02/18/new-proposal-debuted-to-develop-seminary-property-in-strawberry/amp/" target="_blank">Marin IJ, Feb. 18, 2020 — Olivet had ~120 students, 15 faculty</a>
+    <a href="https://www.baptistpress.com/resource-library/sbc-life-articles/a-summer-of-change-leaving-my-heart/" target="_blank">Baptist Press — SBC Executive Committee: housing "extremely difficult"</a>
+  </div>
+</div>
+```
+
+  </div>
+
+  <!-- SECTION 4 -->
+
+  <div class="section">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <div class="section-title">"Traffic Issues Are Grossly Inflated"</div>
+    </div>
+
+```
+<div class="claim-box">
+  <div class="claim-label">Claim #4</div>
+  <div class="claim-text">"I believe that the traffic issues are grossly inflated."</div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">The EIR cost $1.64 MILLION and was prepared by Ascent Environmental, Inc.</div>
+  <div class="fact-body">The 684-page Environmental Impact Report was prepared by Ascent Environmental, a professional CEQA consulting firm, under contract approved by the Marin County Board of Supervisors. Trip generation uses the <strong>ITE Trip Generation Manual</strong> — the industry-standard reference compiled from thousands of empirical traffic studies nationwide. This is the same methodology used for every major development project in California.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marinij.com/2024/07/20/marin-planners-release-strawberry-development-study/" target="_blank">Marin IJ, July 20, 2024 — "North Coast picked up the $1.64 million tab for producing the study"</a>
+    <a href="https://www.pressdemocrat.com/2024/09/16/marin-county-housing-development-eir-faulted-by-project-critics/" target="_blank">Press Democrat, Sept. 16, 2024 — identifies Curtis Alling, project principal at Ascent Environmental</a>
+    <a href="https://marin.granicus.com/MetaViewer.php?view_id=3&clip_id=12330&meta_id=1340971" target="_blank">Planning Commission Staff Report — confirms Ascent Environmental contract</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">Parisi Transportation Consultants: 1,600 → 2,297 → 4,323 daily trips.</div>
+  <div class="fact-body">Parisi Transportation Consultants, an independent Bay Area traffic engineering firm, was engaged by the Seminary Tomorrow community working group. Critically, this study was <strong>paid for by North Coast (the developer)</strong> as part of the collaborative process — not by project opponents. Parisi's findings: seminary-era operations generated ~1,600 daily trips; current Olivet-era use ~2,297 daily trips; the 234-unit proposal would generate ~4,323 daily trips.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.theseminaryatstrawberry.com/seminary-tomorrow-group/" target="_blank">TheSeminaryAtStrawberry.com — Seminary Tomorrow Group (developer's own site confirms Parisi)</a>
+    <a href="https://www.marinij.com/2020/02/18/new-proposal-debuted-to-develop-seminary-property-in-strawberry/amp/" target="_blank">Marin IJ, Feb. 18, 2020 — reports the 1,600 / 2,297 / 4,323 daily trip figures from Parisi study</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">A THIRD firm (Panorama Environmental) peer-reviewed the EIR — and said it UNDERSTATES impacts.</div>
+  <div class="fact-body">The Seminary Neighborhood Association hired Panorama Environmental to conduct an independent peer review. Their finding: the EIR contained <strong>"insufficient traffic analysis"</strong> — meaning the professional critics think the EIR <strong>understates</strong>, not overstates, the traffic impacts.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marinij.com/2024/09/15/strawberry-housing-development-eir-faulted-by-project-critics/" target="_blank">Marin IJ, Sept. 15, 2024 — "SNA hired Panorama Environmental to conduct a comprehensive peer review"</a>
+  </div>
+</div>
+
+<div class="fact-card">
+  <div class="fact-headline">And NONE of this fully accounts for the proposed 1,000-student school.</div>
+  <div class="fact-body">All of the traffic numbers above are for the <strong>residential</strong> component. On top of that, North Coast is reserving the right to operate a 1,000-student college/university on the site. Commuting students, faculty, and staff would generate their own daily vehicle trips — as would employees of the proposed senior care facility, preschool, and fitness center.<br><br>Multiple Planning Commissioners criticized the EIR for failing to analyze the school's impacts. Commissioner Don Dickenson: <strong>"I think it's impossible to do analysis of an institution when you don't know what it is."</strong> SNA attorney Riley Hurd: <strong>"What kind of school? What time does it open? How do people get there? How could there possibly be a meaningful EIR without that data?"</strong> North Coast has refused to specify what kind of institution it would be.</div>
+  <div class="sources">
+    <div class="sources-label">Sources</div>
+    <a href="https://www.marinij.com/2024/09/15/strawberry-housing-development-eir-faulted-by-project-critics/" target="_blank">Marin IJ, Sept. 15, 2024 — Commissioners and attorney quotes on unanalyzed school impacts</a>
+    <a href="https://www.marinij.com/2024/07/20/marin-planners-release-strawberry-development-study/" target="_blank">Marin IJ, July 20, 2024 — "North Coast is reserving the right to operate a 1,000-student college/university"</a>
+    <a href="https://www.marinij.com/2026/01/02/environmental-report-released-for-strawberry-housing-project/" target="_blank">Marin IJ, Jan. 2, 2026 — "North Coast intends to locate a graduate-level academic institution at the Seminary"</a>
+  </div>
+</div>
+```
+
+  </div>
+
+  <!-- BOTTOM LINE -->
+
+  <div class="bottom-line">
+    <h2>The Bottom Line</h2>
+    <div class="bl-rule"></div>
+
+```
+<table class="stats-table">
+  <tr><td class="stat-num">$1.64M</td><td class="stat-desc">Cost of the county-commissioned EIR</td></tr>
+  <tr><td class="stat-num">197</td><td class="stat-desc">Net-new residential units with no predecessor on the site (of 336 total proposed)</td></tr>
+  <tr><td class="stat-num">487 total</td><td class="stat-desc">Proposed units (336 residential + 150 senior care) where 211 dorm rooms used to be</td></tr>
+  <tr><td class="stat-num">~12%</td><td class="stat-desc">Current campus utilization (Olivet's ~120 students vs. 1,000-student capacity)</td></tr>
+  <tr><td class="stat-num">3 firms</td><td class="stat-desc">Ascent Environmental (EIR), Parisi Transportation (traffic study), Panorama Environmental (peer review)</td></tr>
+  <tr><td class="stat-num">0</td><td class="stat-desc">Counter-studies produced by those calling the traffic numbers "BS"</td></tr>
+</table>
+
+<div class="kicker">Calling professionally-conducted traffic studies "grossly inflated" without producing a single piece of counter-data is not an argument. It's a hunch.</div>
+<div class="kicker-sub">And suggesting that newer residents have less standing to advocate for their community's safety is irrelevant. Every resident — whether they arrived in 1977 or 2021 or last week — has an equal right to safe roads, accurate information, and a voice in the planning process.</div>
+```
+
+  </div>
+
+  <!-- SOURCE INDEX -->
+
+  <div class="source-index">
+    <h2>Complete Source Index</h2>
+    <p class="subtitle">Every factual claim above can be verified at these links:</p>
+
+```
+<div class="source-group">
+  <div class="source-group-title">Official Government Sources</div>
+  <ol>
+    <li><a href="https://www.marincounty.gov/departments/cda/planning/projects/mill-valley-alto/north-coast-land-holdings-community-plan-amendmentmaster-plandesign-reviewmaster-use-permittentative-maptree-removal-permit-former-golden-gate-baptist-seminary-property-p1490" target="_blank">Marin County CDA — P1490 Project Page</a></li>
+    <li><a href="https://www.marincounty.gov/news-releases/development-former-seminary-site-strawberry-final-stages-environmental-review" target="_blank">Marin County Press Release — Final EIR, Dec. 16, 2025</a></li>
+    <li><a href="https://marin.granicus.com/MetaViewer.php?view_id=3&clip_id=12330&meta_id=1340971" target="_blank">Planning Commission Staff Report (DEIR hearing)</a></li>
+    <li><a href="https://www.marincounty.gov/news-releases/strawberry-property-moves-environmental-review" target="_blank">Marin County — "Strawberry Property Moves to Environmental Review"</a></li>
+  </ol>
+</div>
+
+<div class="source-group">
+  <div class="source-group-title">News Coverage</div>
+  <ol start="5">
+    <li><a href="https://www.marinij.com/2024/07/20/marin-planners-release-strawberry-development-study/" target="_blank">Marin IJ — "Marin planners release Strawberry development study" (July 20, 2024)</a></li>
+    <li><a href="https://www.marinij.com/2024/09/15/strawberry-housing-development-eir-faulted-by-project-critics/" target="_blank">Marin IJ — "Strawberry housing development EIR faulted" (Sept. 15, 2024)</a></li>
+    <li><a href="https://www.marinij.com/2026/01/02/environmental-report-released-for-strawberry-housing-project/" target="_blank">Marin IJ — "Environmental report released" (Jan. 2, 2026)</a></li>
+    <li><a href="https://www.marinij.com/2020/02/18/new-proposal-debuted-to-develop-seminary-property-in-strawberry/amp/" target="_blank">Marin IJ — "New proposal debuted" (Feb. 18, 2020)</a></li>
+    <li><a href="https://www.pressdemocrat.com/2024/09/16/marin-county-housing-development-eir-faulted-by-project-critics/" target="_blank">Press Democrat — "EIR faulted by project critics" (Sept. 16, 2024)</a></li>
+    <li><a href="https://patch.com/california/millvalley/board-upholds-denial-strawberry-seminary-proposal" target="_blank">Mill Valley Patch — "Board Upholds Denial" (Dec. 13, 2017)</a></li>
+  </ol>
+</div>
+
+<div class="source-group">
+  <div class="source-group-title">Developer's Own Website</div>
+  <ol start="11">
+    <li><a href="https://www.theseminaryatstrawberry.com/historical-uses/" target="_blank">TheSeminaryAtStrawberry.com — Historical Uses</a></li>
+    <li><a href="https://www.theseminaryatstrawberry.com/seminary-tomorrow-group/" target="_blank">TheSeminaryAtStrawberry.com — Seminary Tomorrow Group</a></li>
+  </ol>
+</div>
+
+<div class="source-group">
+  <div class="source-group-title">Seminary / Institutional Sources</div>
+  <ol start="13">
+    <li><a href="https://www.gs.edu/about/seminary-history/" target="_blank">Gateway Seminary — Official Seminary History</a></li>
+    <li><a href="https://www.gs.edu/news-events/articles/golden-gate-seminary-closes-mill-valley-campus/" target="_blank">Gateway Seminary — Mill Valley Campus Closure Announcement</a></li>
+    <li><a href="https://www.baptistpress.com/resource-library/sbc-life-articles/a-summer-of-change-leaving-my-heart/" target="_blank">Baptist Press — "A Summer of Change; Leaving My Heart"</a></li>
+  </ol>
+</div>
+
+<div class="source-group">
+  <div class="source-group-title">Community / Historical Sources</div>
+  <ol start="16">
+    <li><a href="http://strawberry94941.org/?p=379" target="_blank">Strawberry Community Association — "4000 Additional Daily Vehicle Trips"</a></li>
+    <li><a href="https://www.mvhistory.org/vignette-seminary/" target="_blank">Mill Valley Historical Society — "Vignette: Seminary"</a></li>
+    <li><a href="https://marinmagazine.com/arts-events/things-to-do/the-first-baptist-theological-school-in-the-western-us/" target="_blank">Marin Magazine — "The First Baptist Theological School in the Western US"</a></li>
+  </ol>
+</div>
+```
+
+  </div>
+
+  <div class="footer">This document was prepared using publicly available sources. All links were active as of March 1, 2026. Readers are encouraged to verify every claim independently.</div>
+
+</div>
+</body>
+</html>
